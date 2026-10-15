@@ -1,0 +1,13 @@
+name: Run Tests
+# Trigger this workflow on every push or pull request
+on:
+  push:
+  pull_request:
+jobs:
+  test:
+    runs-on: ubuntu-latest  # Use the latest Ubuntu runner
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+      - name: Run Tests
+        run: task test
