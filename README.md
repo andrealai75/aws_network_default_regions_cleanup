@@ -32,8 +32,9 @@ Terraform provides a similar functionality and allows deleting default subnets a
 Before executing the script, ensure your system meets the following requirements:
 
 1. **Python 3.8+** installed.
-2. **AWS CLI** configured with administrator/network-management permissions.
-3. Access to an environment with valid AWS credentials (`AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, or an active SSO session).
+2. **TaskFile** has to be installed
+3. **AWS CLI** configured with administrator/network-management permissions.
+4. Access to an environment with valid AWS credentials (`AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, or an active SSO session).
 
 ---
 
